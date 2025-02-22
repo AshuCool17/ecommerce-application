@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './main-carousel.component.scss'
 })
 export class MainCarouselComponent {
+  carouselData: any;
 
 }
