@@ -10,4 +10,7 @@ import { Component } from '@angular/core';
 export class MainCarouselComponent {
   carouselData: any;
 
+  ngInit(){
+    
+  }
 }
