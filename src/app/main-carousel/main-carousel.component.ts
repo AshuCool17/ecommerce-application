@@ -11,6 +11,6 @@ export class MainCarouselComponent {
   carouselData: any;
 
   ngInit(){
-    
+    this.carouselData=homeCarouselData;
   }
 }
