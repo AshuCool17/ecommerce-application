@@ -16,7 +16,7 @@ export class MainCarouselComponent {
 
   autoPlay(){
     setInterval(()=>{
-      
+      this.nextSlide();
     })
   }
 }
