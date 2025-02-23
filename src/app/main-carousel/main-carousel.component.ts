@@ -13,4 +13,10 @@ export class MainCarouselComponent {
   ngInit(){
     this.carouselData=homeCarouselData;
   }
+
+  autoPlay(){
+    setInterval(()=>{
+      
+    })
+  }
 }
