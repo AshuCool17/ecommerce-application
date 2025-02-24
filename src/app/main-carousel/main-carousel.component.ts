@@ -14,6 +14,7 @@ export class MainCarouselComponent {
 
   ngInit(){
     this.carouselData=homeCarouselData;
+    this.autoPlay();
   }
 
   autoPlay(){
