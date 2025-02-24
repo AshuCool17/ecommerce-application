@@ -24,6 +24,6 @@ export class MainCarouselComponent {
   }
 
   nextSlide(){
-    this.currentSlide
+    this.currentSlide = (this.currentSlide+1) % this.carouselData.length
   }
 }
