@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class MainCarouselComponent {
   carouselData: any;
+  currentSlide=0;
+  interval: any;
 
   ngInit(){
     this.carouselData=homeCarouselData;
@@ -21,6 +23,6 @@ export class MainCarouselComponent {
   }
 
   nextSlide(){
-    
+    this.currentSlide
   }
 }
