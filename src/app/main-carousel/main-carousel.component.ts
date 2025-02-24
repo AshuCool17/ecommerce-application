@@ -19,4 +19,8 @@ export class MainCarouselComponent {
       this.nextSlide();
     },2000)
   }
+
+  nextSlide(){
+    
+  }
 }
