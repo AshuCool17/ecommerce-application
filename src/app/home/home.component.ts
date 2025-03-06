@@ -12,6 +12,6 @@ export class HomeComponent {
   menJeans: any;
 
   ngOnInit(){
-    
+    this.menJeans = mensJeans;
   }
 }
