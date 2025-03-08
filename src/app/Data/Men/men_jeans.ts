@@ -2,6 +2,7 @@ export const menJeans=[
     {
     "imageUrl": "",
     "brand": "WROGN",
-    "price":999
+    "price":999,
+    "discountedPrice": 699,
     }
 ]
