@@ -6,5 +6,11 @@ export const menJeans=[
     "discountedPrice": 699,
     "color":"black",
     "title":"Men Regular Mid Rise Black Jeans",
+    "size":[
+        {
+            "name":"S",
+            "quantity":20
+        }
+    ]
     }
 ]
