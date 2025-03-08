@@ -4,5 +4,6 @@ export const menJeans=[
     "brand": "WROGN",
     "price":999,
     "discountedPrice": 699,
+    "color":"black",
     }
 ]
