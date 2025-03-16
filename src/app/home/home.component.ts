@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   menJeans: any;
+  womenGowns: any;
 
   ngOnInit(){
     this.menJeans = mensJeans.slice(0,5);
