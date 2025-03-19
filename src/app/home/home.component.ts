@@ -20,5 +20,6 @@ export class HomeComponent {
     this.womenGowns = gownsPage1.slice(0,5);
     this.lehengaCholi = lehengaCholi.slice(0,5);
     this.mensKurta = mensKurta.slice(0,5);
+    this.mensShoes = mensShoes.slice(0,5);
   }
 }
