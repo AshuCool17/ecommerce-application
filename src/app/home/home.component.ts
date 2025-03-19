@@ -18,5 +18,6 @@ export class HomeComponent {
   ngOnInit(){
     this.menJeans = mensJeans.slice(0,5);
     this.womenGowns = gownsPage1.slice(0,5);
+    this.lehengaCholi = lehengaCholi.slice(0,5);
   }
 }
