@@ -11,9 +11,13 @@
                     Shop with Us
                 </a>
                 <button (click)="openNavbarContent('men')" mat-button>Men</button>
-                <button (click)="openNavbarContent('men')" mat-button>Women</button>
+                <button (click)="openNavbarContent('women')" mat-button>Women</button>
             </div>
 
         </div>
+    </div>
+
+    <div *ngIf="isNavbarContentOpen" class="modal-container">
+
     </div>
 </div>
